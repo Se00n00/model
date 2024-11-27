@@ -66,10 +66,19 @@
 			<version>1.0.0-M2.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.deeplearning4j</groupId>
-			<artifactId>deeplearning4j-onnx</artifactId>
-			<version>1.0.0-beta7</version> <!-- Ensure compatibility with your DL4J version -->
+			<groupId>org.tensorflow</groupId>
+			<artifactId>tensorflow-core-platform</artifactId>
+			<version>0.3.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.tensorflow</groupId>
+			<artifactId>tensorflow</artifactId>
+			<version>1.15.0</version>
+		</dependency>
+
+
+
+
 	</dependencies>
 
 	<build>

@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Fruit_Model {
-    public static int predict(INDArray imageData) throws IOException {
+    public static int predict() throws IOException {
 
 //        TODO : IMPLEMENT FRUIT_MODEL AND RETURN JSON type
 
